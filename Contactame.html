@@ -1,0 +1,37 @@
+<!--
+    Una pagina de contacto donde debe colocar un formulario con los campos de nombre, apellido, correo y una descripción donde el cliente especifique los servicios que desea (esta pagina debe tener un enlace que me permita volver al home)
+ -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contactame</title>
+  </head>
+
+  <body>
+    <h1>Contactame</h1>
+
+    <form>
+      <label for="nombre">Nombre:</label>
+      <input type="text" required placeholder="Gary Alexander" /><br />
+      <label for="apellido">Apellido:</label>
+      <input type="text" required placeholder="Campusano Paredes" /><br />
+      <label for="correo">Correo:</label>
+      <input type="email" required placeholder="20221022@itla.edu.do" /><br />
+      <label for="descripcion">Descripción:</label>
+      <input
+        type="text"
+        required
+        placeholder="Especifique los servicios"
+      /><br />
+      <button type="submit">Enviar</button>
+    </form>
+
+    <footer>
+      <nav>
+        <p>Volver a <a href="/index.html">Home</a></p>
+      </nav>
+    </footer>
+  </body>
+</html>
